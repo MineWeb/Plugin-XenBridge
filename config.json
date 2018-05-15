@@ -1,0 +1,29 @@
+{
+  "name":"Xenbridge",
+  "author":"Kenshimdev",
+  "version":"2.0.0",
+  "apiID":-1,
+  
+  "admin_menus": {
+    "GLOBAL__ADMIN_GENERAL": {
+      "XenBridge": {
+        "icon": "sign-in",
+        "route": "/admin/xenbridge"
+      }
+    }
+  },
+  
+  "nav":false,
+  "admin":true,
+  "useEvents":true,
+  "permissions" : {
+    "available" : [],
+    "default" : {
+      "0" : [],
+      "2" : []
+    }
+  },
+  "requirements" : {
+    "CMS" : ">= 1.3.6"
+  }
+}
