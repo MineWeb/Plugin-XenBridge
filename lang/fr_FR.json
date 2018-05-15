@@ -20,6 +20,6 @@
     "XENBRIDGE_SSL_OK_FORUM": "OK. Votre forum Xenforo utilise un protocole sécurisé SSL (https).",
     "XENBRIDGE_SSL_NOTOK_FORUM": "PAS OK. Votre forum Xenforo doit être sous un protocole sécurisé SSL (https).",
 	"XENBRIDGE_API_DOWNLOAD_TITLE": "Téléchargement de l'api",
-	"XENBRIDGE_API_DOWNLOAD": "Pour télécharger le fichier api.php rendez vous sur <a href=\"https://github.com/MineWeb/Plugin-XenBridge/XenAPI/api.php/\" target=\"_blank\">'CE LIEN'</a>",
+	"XENBRIDGE_API_DOWNLOAD": "Pour télécharger le fichier api.php rendez vous sur <a href=\"https://github.com/MineWeb/Plugin-XenBridge/blob/master/XenApi/api.php/\" target=\"_blank\">'CE LIEN'</a>",
 	"XENBRIDGE_API_DOWNLOAD_EXPLAIN": "Une fois que vous avez le fichier entre les mains, il vous suffit mettre le fichier api.php a la racine du répertoire de votre dossier XenForo"
 }

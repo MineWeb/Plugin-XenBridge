@@ -27,7 +27,7 @@ Ce plugin vous permet de lier votre site Mineweb à votre forum Xenforo. Ainsi l
 5. Installation effectuée.
 
 ## Installation | API
-1. Télécharger l'[API XenAPI](https://github.com/MineWeb/Plugin-XenBridge/XenAPI/api.php) pour Xenforo, développée par Contex. Récupérer le fichier et le placer à la racine de votre forum.
+1. Télécharger l'[API XenAPI](https://github.com/MineWeb/Plugin-XenBridge/blob/master/XenApi/api.php) pour Xenforo, développée par Contex. Récupérer le fichier et le placer à la racine de votre forum.
 2. Remplacer "REPLACE_THIS_WITH_AN_API_KEY" par une clé aléatoire (vous êtes le/la seul(e) à la connaître !!) à la ligne n°20 du fichier ci-dessus Vous pouvez utiliser ce [générateur](https://codepen.io/corenominal/full/rxOmMJ/)
 3. Se rendre dans l'administration de mineweb sous Général > Xenbridge
 4. Saisir la clé définie à l'étape n°2
