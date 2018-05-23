@@ -47,7 +47,7 @@ class XenbridgeEventListener implements CakeEventListener {
 	 * The user is so disconnected from the forum
 	 */
 	private function logoutFromXenforo(){
-		$r = json_decode($this->APIRequest->exec($this->xenapi_fullpath . '?action=logout'), true);
+		$r = json_decode($this->APIRequest->exec($this->xenapi_fullpath . 'logout/?_xfToken={$visitor.csrf_token_page}'), true);
 
 		if(isset($r['success'])){
 			return $r;
@@ -56,15 +56,15 @@ class XenbridgeEventListener implements CakeEventListener {
 
 	/**
 	 * Authenticates a user in xenforo
-	 * @param xf_username type string - xenforo username
-	 * @param xf_password type string - xenforo password
+	 * @param username type string - xenforo username
+	 * @param password type string - xenforo password
 	 */
-	private function logInXenforo($xf_username, $xf_password){
+	private function logInXenforo($username, $password){
 			//The user is disconnected from his current xenforo sessions
 			$logout = $this->logoutFromXenforo();
 
 			//Retrieves the data to create the session
-			$account = json_decode($this->APIRequest->exec($this->xenapi_fullpath . '?action=login&username=' . $xf_username . '&password=' . $xf_password . '&ip_address=' . $_SERVER['REMOTE_ADDR']), true);
+			$account = json_decode($this->APIRequest->exec($this->xenapi_fullpath . '?login&username=' . $username . '&password=' . $password), true);
 			
 			if(isset($account['cookie_name']) || !isset($account['error'])){
 				//Set session into cookie (xf_session)

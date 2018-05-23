@@ -26,7 +26,7 @@ class UserprofileComponent extends Component {
       $APIRequest = new APIRequest('XenAPI/1.0', 40);
 
       if($this->xenbridge_enabled){
-        $this->stats = json_decode($APIRequest::exec($this->xenapi_fullpath . '?action=getUser&value=' . $user . '&hash=' . $this->xenapi_key), true);
+        $this->stats = json_decode($APIRequest->exec($this->xenapi_fullpath . '?action=getUser&value=' . $user . '&hash=' . $this->xenapi_key), true);
       }
     }
 
@@ -63,7 +63,7 @@ class UserprofileComponent extends Component {
      * Return the last activity of the user on the forum
      */
     public function getLastActivity(){
-      return date('d.m.Y H:i:s', $this->stats['last_activity']);
+      return date('d/m/Y à H:i:s', $this->stats['last_activity']);
     }
 
     /**

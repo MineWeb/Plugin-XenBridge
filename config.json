@@ -1,7 +1,7 @@
 {
   "name":"Xenbridge",
   "author":"Kenshimdev",
-  "version":"2.0.0",
+  "version":"2.0.1",
   "apiID":-1,
   
   "admin_menus": {
@@ -24,6 +24,6 @@
     }
   },
   "requirements" : {
-    "CMS" : ">=1.4.0"
+    "CMS" : ">= 1.4.0"
   }
 }

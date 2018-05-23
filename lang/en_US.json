@@ -20,6 +20,14 @@
 	"XENBRIDGE_SSL_OK_FORUM": "OK, your Xenforo forum uses a secure SSL (https) protocol.",
 	"XENBRIDGE_SSL_NOTOK_FORUM": "NOT OK Your Xenforo forum must be under a secure SSL (https) protocol.",
 	"XENBRIDGE_API_DOWNLOAD_TITLE": "Downloading the API",
-	"XENBRIDGE_API_DOWNLOAD": "To download the api.php file go to <a href =\"https://github.com/MineWeb/Plugin-XenBridge/blob/master/XenApi/api.php/\" target =\"_blank\">'THIS LINK'</a>",
-	"XENBRIDGE_API_DOWNLOAD_EXPLAIN": "Once you have the file in your hands, just put the file api.php at the root directory of your XenForo folder"
+	"XENBRIDGE_API_DOWNLOAD": "To download the api.php file go to <a href =\"https://github.com/valh1996/XenAPI/blob/master/net/xenapi/XenAPI/api.php/\" target =\"_blank\">'THIS LINK'</a>",
+	"XENBRIDGE_API_DOWNLOAD_EXPLAIN": "Once you have the file in your hands, just put the file api.php at the root directory of your XenForo folder",
+	"XENBRIDGE_STATS_FORUM": "Forum Statistics",
+	"XENBRIDGE_STATS_FORUM_MESS_POSTED": "Messages posted",
+	"XENBRIDGE_STATS_FORUM_RANK": "rANK",
+	"XENBRIDGE_STATS_FORUM_LAST_ACT": "Last Activity",
+	"XENBRIDGE_STATS_FORUM_CONVO_UNREAD": "Unread Conversations",
+	"XENBRIDGE_STATS_FORUM_TROPHIES": "Number of trophies",
+	"XENBRIDGE_STATS_FORUM_LIKE": "Number of likes",
+	"XENBRIDGE_STATS_FORUM_WARNING": "Number of warnings"
 }
