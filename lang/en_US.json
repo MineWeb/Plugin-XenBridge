@@ -29,5 +29,6 @@
 	"XENBRIDGE_STATS_FORUM_CONVO_UNREAD": "Unread Conversations",
 	"XENBRIDGE_STATS_FORUM_TROPHIES": "Number of trophies",
 	"XENBRIDGE_STATS_FORUM_LIKE": "Number of likes",
-	"XENBRIDGE_STATS_FORUM_WARNING": "Number of warnings"
+	"XENBRIDGE_STATS_FORUM_WARNING": "Number of warnings",
+	"XENBRIDGE_STATS_FORUM_REGISTER_DATE": "Your ID"
 }

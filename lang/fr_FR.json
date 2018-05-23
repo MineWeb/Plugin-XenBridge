@@ -29,5 +29,6 @@
 	"XENBRIDGE_STATS_FORUM_CONVO_UNREAD": "Conversations non lues",
 	"XENBRIDGE_STATS_FORUM_TROPHIES": "Nombre de trophées",
 	"XENBRIDGE_STATS_FORUM_LIKE": "Nombre de j'aimes",
-	"XENBRIDGE_STATS_FORUM_WARNING": "Nombre d'avertissements"
+	"XENBRIDGE_STATS_FORUM_WARNING": "Nombre d'avertissements",
+	"XENBRIDGE_STATS_FORUM_USER_ID": "Votre ID"
 }

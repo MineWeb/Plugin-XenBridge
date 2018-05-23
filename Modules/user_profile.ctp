@@ -23,14 +23,20 @@ if($profileComponent->isEnable()){
             <div class="row">
 				<div class="col-sm-6">
 					<div class="form-group">
-						<label><?= $Lang->get('XENBRIDGE_STATS_FORUM_MESS_POSTED') ?></label>
-                        <input type="text" class="form-control" value="<?= $profileComponent->getMessages(); ?>" disabled>
+						<label><?= $Lang->get('XENBRIDGE_STATS_FORUM_USER_ID') ?></label>
+                        <input type="text" class="form-control" value="<?= $profileComponent->getID(); ?>" disabled>
 					</div>
 				</div>
 				<div class="col-sm-6">
 					<div class="form-group">
 						<label><?= $Lang->get('XENBRIDGE_STATS_FORUM_RANK') ?></label>
                         <input type="text" class="form-control" value="<?= $profileComponent->getRank(); ?>" disabled>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label><?= $Lang->get('XENBRIDGE_STATS_FORUM_MESS_POSTED') ?></label>
+                        <input type="text" class="form-control" value="<?= $profileComponent->getMessages(); ?>" disabled>
 					</div>
 				</div>
 				<div class="col-sm-6">

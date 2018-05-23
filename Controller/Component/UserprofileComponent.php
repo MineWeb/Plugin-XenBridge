@@ -54,6 +54,8 @@ class UserprofileComponent extends Component {
         return 'Administrateur';
       }else if($this->stats['is_moderator'] == 1){
         return 'Modérateur';
+	  }else if($this->stats['is_banned'] == 1){
+        return 'Membre Banni';
       }else{
         return 'Membre';
       }
@@ -93,4 +95,10 @@ class UserprofileComponent extends Component {
     public function getWarnings(){
       return $this->stats['warning_points'];
     }
+	/**
+	 * Return the client id
+	 */
+	public function getID(){
+	  return $this->stats['user_id'];
+	}
 }

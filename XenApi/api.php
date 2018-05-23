@@ -2877,12 +2877,6 @@ class RestAPI {
                 } else if (!$this->getRequest('password')) {
                     // Throw error if the 'password' argument is set but empty.
                     $this->throwError(1, 'password');
-                } else if (!$this->hasRequest('ip_address')) {
-                    // The 'ip_address' argument has not been set, throw error.
-                    $this->throwError(3, 'ip_address');
-                } else if (!$this->getRequest('ip_address')) {
-                    // Throw error if the 'ip_address' argument is set but empty.
-                    $this->throwError(1, 'ip_address');
                 }
 
                 // Get the user object.
