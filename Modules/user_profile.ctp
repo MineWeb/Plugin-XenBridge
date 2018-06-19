@@ -14,7 +14,7 @@ $profileComponent = new UserprofileComponent($user['pseudo']);
 if($profileComponent->isEnable()){
 ?>
 <p>
-<div class="well" style="background-color: #fff;">
+<div class="well" style="background-color: transparent;">
 	 <div class="panel-body">
 		<div class="box no-mb">
             <div class="row">
