@@ -15,9 +15,6 @@ if($profileComponent->isEnable()){
 ?>
 <p>
 <div class="well" style="background-color: #fff;">
-	<div class="panel-heading">
-		<h3 class="panel-title"><?= $Lang->get('XENBRIDGE_STATS_FORUM') ?></h3>
-	</div>
 	 <div class="panel-body">
 		<div class="box no-mb">
             <div class="row">
