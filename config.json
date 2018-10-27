@@ -1,18 +1,15 @@
 {
   "name":"Xenbridge",
   "author":"Kenshimdev",
-  "version":"2.0.3",
-  "apiID":-1,
-  
+  "version":"2.0.4",
   "admin_menus": {
-    "GLOBAL__ADMIN_GENERAL": {
+    "GLOBAL__ADMIN_PLUGINS": {
       "XenBridge": {
         "icon": "sign-in",
         "route": "/admin/xenbridge"
       }
     }
   },
-  
   "nav":false,
   "admin":true,
   "useEvents":true,
