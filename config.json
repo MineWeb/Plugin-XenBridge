@@ -1,26 +1,26 @@
 {
-  "name":"Xenbridge",
-  "author":"Kenshimdev",
-  "version":"2.0.4",
-  "admin_menus": {
-    "GLOBAL__ADMIN_PLUGINS": {
-      "XenBridge": {
-        "icon": "sign-in",
-        "route": "/admin/xenbridge"
-      }
+    "name": "Xenbridge",
+    "author": "Kenshimdev",
+    "version": "2.0.5",
+    "admin_menus": {
+        "GLOBAL__ADMIN_PLUGINS": {
+            "XenBridge": {
+                "icon": "fas fa-sign-in-alt",
+                "route": "/admin/xenbridge"
+            }
+        }
+    },
+    "nav": false,
+    "admin": true,
+    "useEvents": true,
+    "permissions": {
+        "available": [],
+        "default": {
+            "0": [],
+            "2": []
+        }
+    },
+    "requirements": {
+        "CMS": "^1.11.0"
     }
-  },
-  "nav":false,
-  "admin":true,
-  "useEvents":true,
-  "permissions" : {
-    "available" : [],
-    "default" : {
-      "0" : [],
-      "2" : []
-    }
-  },
-  "requirements" : {
-    "CMS" : "^1.4.0"
-  }
 }
