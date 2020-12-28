@@ -1,11 +1,11 @@
 {
   "name":"Xenbridge",
   "author":"Kenshimdev",
-  "version":"2.0.4",
+  "version":"2.0.5",
   "admin_menus": {
     "GLOBAL__ADMIN_PLUGINS": {
       "XenBridge": {
-        "icon": "sign-in",
+        "icon": "fas fa-sign-in-alt",
         "route": "/admin/xenbridge"
       }
     }
@@ -21,6 +21,6 @@
     }
   },
   "requirements" : {
-    "CMS" : "^1.4.0"
+    "CMS" : "^1.11.0"
   }
 }
