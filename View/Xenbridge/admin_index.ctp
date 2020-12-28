@@ -1,11 +1,11 @@
 <section class="content">
     <div class="row">
         <div class="col-md-12">
-            <div class="box">
-                <div class="box-header with-border">
-                    <h3 class="box-title"><?= $Lang->get("XENBRIDGE_MAIN_TITLE"); ?></h3> <span style="float:right;"><?= $Lang->get("PLUGIN_DEVELOPED_BY"); ?></span>
+            <div class="card">
+                <div class="card-header with-border">
+                    <h3 class="card-title"><?= $Lang->get("XENBRIDGE_MAIN_TITLE"); ?></h3> <span style="float:right;"><?= $Lang->get("PLUGIN_DEVELOPED_BY"); ?></span>
                 </div>
-                <div class="box-body">
+                <div class="card-body">
                     <div class="row">
                         <div class="col-md-5">
                             <p style="text-align:justify;font-style:italic;"><?= $Lang->get("XENBRIDGE_PRESENTATION_TITLE"); ?></p>
@@ -50,14 +50,18 @@
                         <div class="form-group col-md-6">
                             <label class="control-label" id="xenapi_key"><?= $Lang->get("XENAPI_LABEL_XENAPI_KEY"); ?></label>
                             <div class="input-group">
-                                <span class="input-group-addon"><span class="fa fa-key"></span></span>
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><span class="fa fa-key"></span></span>
+                                </div>
                                 <input type="text" class="form-control" id="xenapi_key" name="xenapi_key" value="<?= (!empty($xenapi_key)) ? $xenapi_key : ''; ?>" placeholder="<?= $Lang->get("XENAPI_KEY_INPUT_PLACEHOLDER"); ?>" minlength="20" maxlength="50" required>
                             </div>
                         </div>
                         <div class="form-group col-md-6">
                             <label class="control-label" id="xenapi_fullpath"><?= $Lang->get("XENAPI_LABEL_XENAPI_FULLPATH"); ?></label>
                             <div class="input-group">
-                                <span class="input-group-addon"><span class="fa fa-location-arrow"></span></span>
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><span class="fa fa-location-arrow"></span></span>
+                                </div>
                                 <input type="text" class="form-control" id="xenapi_fullpath" name="xenapi_fullpath" value="<?= (!empty($xenapi_fullpath)) ? $xenapi_fullpath : ''; ?>" placeholder="<?= $Lang->get("XENAPI_FULLPATH_INPUT_PLACEHOLDER"); ?>" minlength="10" required>
                             </div>
                         </div>
